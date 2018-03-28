@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCC468D2206BD98400B49CFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC468D1206BD98400B49CFB /* AppDelegate.m */; };
+		DCC468D5206BD98400B49CFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC468D4206BD98400B49CFB /* ViewController.m */; };
+		DCC468D8206BD98400B49CFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC468D6206BD98400B49CFB /* Main.storyboard */; };
+		DCC468DA206BD98400B49CFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC468D9206BD98400B49CFB /* Assets.xcassets */; };
+		DCC468DD206BD98400B49CFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC468DB206BD98400B49CFB /* LaunchScreen.storyboard */; };
+		DCC468E0206BD98400B49CFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC468DF206BD98400B49CFB /* main.m */; };
+		DCC468EA206BD98400B49CFB /* YJPageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC468E9206BD98400B49CFB /* YJPageViewTests.m */; };
+		DCC468F5206BD98400B49CFB /* YJPageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC468F4206BD98400B49CFB /* YJPageViewUITests.m */; };
+		DCC46909206BD9DE00B49CFB /* YJPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC46908206BD9DE00B49CFB /* YJPageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCC468E6206BD98400B49CFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC468C5206BD98400B49CFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC468CC206BD98400B49CFB;
+			remoteInfo = YJPageView;
+		};
+		DCC468F1206BD98400B49CFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC468C5206BD98400B49CFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC468CC206BD98400B49CFB;
+			remoteInfo = YJPageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCC468CD206BD98400B49CFB /* YJPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC468D0206BD98400B49CFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCC468D1206BD98400B49CFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCC468D3206BD98400B49CFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCC468D4206BD98400B49CFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCC468D7206BD98400B49CFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCC468D9206BD98400B49CFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC468DC206BD98400B49CFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCC468DE206BD98400B49CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC468DF206BD98400B49CFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCC468E5206BD98400B49CFB /* YJPageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJPageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC468E9206BD98400B49CFB /* YJPageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJPageViewTests.m; sourceTree = "<group>"; };
+		DCC468EB206BD98400B49CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC468F0206BD98400B49CFB /* YJPageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJPageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC468F4206BD98400B49CFB /* YJPageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJPageViewUITests.m; sourceTree = "<group>"; };
+		DCC468F6206BD98400B49CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC46907206BD9DE00B49CFB /* YJPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJPageView.h; sourceTree = "<group>"; };
+		DCC46908206BD9DE00B49CFB /* YJPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJPageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCC468CA206BD98400B49CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC468E2206BD98400B49CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC468ED206BD98400B49CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCC468C4206BD98400B49CFB = {
+			isa = PBXGroup;
+			children = (
+				DCC468CF206BD98400B49CFB /* YJPageView */,
+				DCC468E8206BD98400B49CFB /* YJPageViewTests */,
+				DCC468F3206BD98400B49CFB /* YJPageViewUITests */,
+				DCC468CE206BD98400B49CFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC468CE206BD98400B49CFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC468CD206BD98400B49CFB /* YJPageView.app */,
+				DCC468E5206BD98400B49CFB /* YJPageViewTests.xctest */,
+				DCC468F0206BD98400B49CFB /* YJPageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC468CF206BD98400B49CFB /* YJPageView */ = {
+			isa = PBXGroup;
+			children = (
+				DCC46906206BD9CD00B49CFB /* YJPageView */,
+				DCC468D0206BD98400B49CFB /* AppDelegate.h */,
+				DCC468D1206BD98400B49CFB /* AppDelegate.m */,
+				DCC468D3206BD98400B49CFB /* ViewController.h */,
+				DCC468D4206BD98400B49CFB /* ViewController.m */,
+				DCC468D6206BD98400B49CFB /* Main.storyboard */,
+				DCC468D9206BD98400B49CFB /* Assets.xcassets */,
+				DCC468DB206BD98400B49CFB /* LaunchScreen.storyboard */,
+				DCC468DE206BD98400B49CFB /* Info.plist */,
+				DCC468DF206BD98400B49CFB /* main.m */,
+			);
+			path = YJPageView;
+			sourceTree = "<group>";
+		};
+		DCC468E8206BD98400B49CFB /* YJPageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC468E9206BD98400B49CFB /* YJPageViewTests.m */,
+				DCC468EB206BD98400B49CFB /* Info.plist */,
+			);
+			path = YJPageViewTests;
+			sourceTree = "<group>";
+		};
+		DCC468F3206BD98400B49CFB /* YJPageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC468F4206BD98400B49CFB /* YJPageViewUITests.m */,
+				DCC468F6206BD98400B49CFB /* Info.plist */,
+			);
+			path = YJPageViewUITests;
+			sourceTree = "<group>";
+		};
+		DCC46906206BD9CD00B49CFB /* YJPageView */ = {
+			isa = PBXGroup;
+			children = (
+				DCC46907206BD9DE00B49CFB /* YJPageView.h */,
+				DCC46908206BD9DE00B49CFB /* YJPageView.m */,
+			);
+			path = YJPageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCC468CC206BD98400B49CFB /* YJPageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC468F9206BD98400B49CFB /* Build configuration list for PBXNativeTarget "YJPageView" */;
+			buildPhases = (
+				DCC468C9206BD98400B49CFB /* Sources */,
+				DCC468CA206BD98400B49CFB /* Frameworks */,
+				DCC468CB206BD98400B49CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJPageView;
+			productName = YJPageView;
+			productReference = DCC468CD206BD98400B49CFB /* YJPageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCC468E4206BD98400B49CFB /* YJPageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC468FC206BD98400B49CFB /* Build configuration list for PBXNativeTarget "YJPageViewTests" */;
+			buildPhases = (
+				DCC468E1206BD98400B49CFB /* Sources */,
+				DCC468E2206BD98400B49CFB /* Frameworks */,
+				DCC468E3206BD98400B49CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC468E7206BD98400B49CFB /* PBXTargetDependency */,
+			);
+			name = YJPageViewTests;
+			productName = YJPageViewTests;
+			productReference = DCC468E5206BD98400B49CFB /* YJPageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCC468EF206BD98400B49CFB /* YJPageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC468FF206BD98400B49CFB /* Build configuration list for PBXNativeTarget "YJPageViewUITests" */;
+			buildPhases = (
+				DCC468EC206BD98400B49CFB /* Sources */,
+				DCC468ED206BD98400B49CFB /* Frameworks */,
+				DCC468EE206BD98400B49CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC468F2206BD98400B49CFB /* PBXTargetDependency */,
+			);
+			name = YJPageViewUITests;
+			productName = YJPageViewUITests;
+			productReference = DCC468F0206BD98400B49CFB /* YJPageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC468C5206BD98400B49CFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = YangJing;
+				TargetAttributes = {
+					DCC468CC206BD98400B49CFB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DCC468E4206BD98400B49CFB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCC468CC206BD98400B49CFB;
+					};
+					DCC468EF206BD98400B49CFB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCC468CC206BD98400B49CFB;
+					};
+				};
+			};
+			buildConfigurationList = DCC468C8206BD98400B49CFB /* Build configuration list for PBXProject "YJPageView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCC468C4206BD98400B49CFB;
+			productRefGroup = DCC468CE206BD98400B49CFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC468CC206BD98400B49CFB /* YJPageView */,
+				DCC468E4206BD98400B49CFB /* YJPageViewTests */,
+				DCC468EF206BD98400B49CFB /* YJPageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCC468CB206BD98400B49CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC468DD206BD98400B49CFB /* LaunchScreen.storyboard in Resources */,
+				DCC468DA206BD98400B49CFB /* Assets.xcassets in Resources */,
+				DCC468D8206BD98400B49CFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC468E3206BD98400B49CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC468EE206BD98400B49CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC468C9206BD98400B49CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC468D5206BD98400B49CFB /* ViewController.m in Sources */,
+				DCC468E0206BD98400B49CFB /* main.m in Sources */,
+				DCC46909206BD9DE00B49CFB /* YJPageView.m in Sources */,
+				DCC468D2206BD98400B49CFB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC468E1206BD98400B49CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC468EA206BD98400B49CFB /* YJPageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC468EC206BD98400B49CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC468F5206BD98400B49CFB /* YJPageViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCC468E7206BD98400B49CFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC468CC206BD98400B49CFB /* YJPageView */;
+			targetProxy = DCC468E6206BD98400B49CFB /* PBXContainerItemProxy */;
+		};
+		DCC468F2206BD98400B49CFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC468CC206BD98400B49CFB /* YJPageView */;
+			targetProxy = DCC468F1206BD98400B49CFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCC468D6206BD98400B49CFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC468D7206BD98400B49CFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCC468DB206BD98400B49CFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC468DC206BD98400B49CFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCC468F7206BD98400B49CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCC468F8206BD98400B49CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC468FA206BD98400B49CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = YJPageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YangJing.YJPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC468FB206BD98400B49CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = YJPageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YangJing.YJPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCC468FD206BD98400B49CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = YJPageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YangJing.YJPageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJPageView.app/YJPageView";
+			};
+			name = Debug;
+		};
+		DCC468FE206BD98400B49CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = YJPageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YangJing.YJPageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJPageView.app/YJPageView";
+			};
+			name = Release;
+		};
+		DCC46900206BD98400B49CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = YJPageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YangJing.YJPageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YJPageView;
+			};
+			name = Debug;
+		};
+		DCC46901206BD98400B49CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = YJPageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YangJing.YJPageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YJPageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCC468C8206BD98400B49CFB /* Build configuration list for PBXProject "YJPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC468F7206BD98400B49CFB /* Debug */,
+				DCC468F8206BD98400B49CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC468F9206BD98400B49CFB /* Build configuration list for PBXNativeTarget "YJPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC468FA206BD98400B49CFB /* Debug */,
+				DCC468FB206BD98400B49CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC468FC206BD98400B49CFB /* Build configuration list for PBXNativeTarget "YJPageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC468FD206BD98400B49CFB /* Debug */,
+				DCC468FE206BD98400B49CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC468FF206BD98400B49CFB /* Build configuration list for PBXNativeTarget "YJPageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC46900206BD98400B49CFB /* Debug */,
+				DCC46901206BD98400B49CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCC468C5206BD98400B49CFB /* Project object */;
+}
