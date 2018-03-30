@@ -145,6 +145,18 @@
 }
 
 //MARK: - setter
+- (void)setSelectedIndex:(NSInteger)selectedIndex {
+    if (selectedIndex > self.dataArray.count-1) return;
+    
+    _selectedIndex = selectedIndex;
+    
+    UIButton *item = self.itemsArray[selectedIndex];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self selectedAction:item];
+        
+    });
+}
+
 - (void)setFrame:(CGRect)frame {
     [super setFrame:frame];
     

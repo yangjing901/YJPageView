@@ -10,6 +10,11 @@
 
 @interface YJPageView : UIView
 
+/**
+ *  选中页签
+ */
+@property (nonatomic, assign) NSInteger selectedIndex;
+
 
 /**
  *  每屏展示标签数

@@ -40,6 +40,8 @@
     UIView *view3 = [UIView new];
     view3.backgroundColor = [UIColor orangeColor];
     [self.pageView addItemsView:view3 title:@"Item3"];
+    
+    self.pageView.selectedIndex = 2;
 }
 
 //MARK: - getter
